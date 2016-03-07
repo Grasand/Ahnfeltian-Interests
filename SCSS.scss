@@ -2,10 +2,16 @@ $bblue: #BBE1ED;
 
 $niceorange: #FFB95E;
 
-$background: $bblue;
+$Headercolor: #e1edbb;
+
+$headerfontcolor: #c7bbed;
+
+header {
+		background: 
+}
 
 body{
-	background: rgb(187,225,237);}
+	background: $bblue;}
 
 h1{
 	font-family: Arial black;
@@ -22,10 +28,13 @@ h2{
 
 p{
 	font-family:Arial;
-	text-indent: 30px}
+	text-indent: 30px
+}
 
 footer{
-	color:rgba(100,0,0,0.7);}
+	background: $Headercolor;
+	color:$headerfontcolor;
+}
 
 .List{
 	background: $bblue;
@@ -35,7 +44,7 @@ footer{
 }
 #lists{
 
-	 border: solid orange;
+	 border: $niceorange;
 	  border-width: 2px 0;
 	text-align: center;	
 	padding-bottom: 20px; 
