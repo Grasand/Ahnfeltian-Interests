@@ -1,0 +1,56 @@
+body{
+	background: rgb(187,225,237); }
+
+h1{
+	font-family: Arial black;
+	text-align: center;
+	font-size: 30px;
+	color: #FFB95E;
+}
+
+h2{
+	font-family: Arial black;
+	font-size: 20px;
+	text-align: center;}
+p{
+	font-family: Arial;
+	text-indent: 30px}
+
+footer{
+	color: rgba(100,0,0,0.7);}
+
+.List{
+	background: rgb(255,167,94);
+	border:2px  black;
+	padding: 20px;
+	text-align: center;	
+}
+#lists{
+
+	 border: solid orange;
+	  border-width: 2px 0;
+	text-align: center;	
+	padding-bottom: 20px; 
+}
+	
+.button  { 
+	
+}
+
+img{
+	float: left;
+}
+
+a{
+	color:blue;
+}
+
+a:hover{
+	color:orange;
+	font-size: 18px;
+}
+
+a:focus{
+	color: orange;
+	font-size: 15px;
+}
